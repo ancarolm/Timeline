@@ -18,7 +18,7 @@ const data = [
         date: "march 21 2021",
         category: {
             tag: "medium",
-            color: "#00000"
+            color: "#a18a4c"
         },
         link: {
             url: "https://github.com/ancarolm/Timeline",

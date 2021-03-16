@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 
-const timelineitem = ({data}) => (
+const TimelineItem = ({data}) => (
 
     <div className ="timeline-item">
         <div className="timeline-item-content">
@@ -23,4 +23,4 @@ const timelineitem = ({data}) => (
 
 );
 
-export default timelineitem;
+export default TimelineItem;

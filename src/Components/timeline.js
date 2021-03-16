@@ -1,8 +1,8 @@
 import React from "react";
 import timelineData from "../data";
-import timelineitem from "./timelineintem";
+import timelineitem from "./TimelineItem";
 
-const timeline = () => timelineData.length > 0 && (
+const Timeline = () => timelineData.length > 0 && (
 
     <div className= "timeline-container">
         {timelineData.map((data, idx) => (
@@ -15,4 +15,4 @@ const timeline = () => timelineData.length > 0 && (
     </div>
 );
 
-export default timeline;
+export default Timeline;
